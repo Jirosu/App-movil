@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  app:
+    image: movil-app-api
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      - GOOGLE.API.KEY=AIzaSyBL_QcQvaxXonCOqOoeE8eLuPDZx0_jy-g
+
+
