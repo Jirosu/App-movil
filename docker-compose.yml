@@ -8,6 +8,6 @@ services:
     ports:
       - "8080:8080"
     environment:
-      - GOOGLE.API.KEY=AIzaSyBL_QcQvaxXonCOqOoeE8eLuPDZx0_jy-g
+      - GOOGLE.API.KEY=AIzaSyBZu4mfZMM75t20nO1zM0PwQoYMb_qKyU8
 
 
